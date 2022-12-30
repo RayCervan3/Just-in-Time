@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Just-in Time</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;900&display=swap" rel="stylesheet">
+    <!-- Bootstrap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous">
+    <!-- CSS doc -->
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+
+  <body>
+    <section class="colored-section" id="title">
+      <div class="container-fluid">
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="#">Just-in Time</a>
+            <button class="navbar-toggler" type="button"
+              data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+              aria-controls="navbarTogglerDemo01" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#footer">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#pricing">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#cta">Download</a>
+                </li>
+              </ul>
+            </div>          
+        </nav>
+        <!-- Title -->
+        <div class="row">
+          <div class="col-lg-6">
+            <h1 class="big-headings">Meet a new way of being on time.</h1>
+            <!-- Download buttons -->
+            <button type="button" class="btn btn-dark btn-lg Download-button"><i class="fa-brands fa-apple"></i> Download</button>
+            <button type="button" class="btn btn-outline-light btn-lg Download-button"><i class="fa-brands fa-google-play"></i> Download</button>
+          </div>
+          <div class="col-lg-6">
+            
+              <img class="title-image" src="images/iphone6.png" alt="iphone-mockup">
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Features -->
+
+    <section class="white-section" id="features">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4 feature-box">
+            <i class="fa-solid fa-circle-check fa-4x feature-icons"></i>
+            <h3 class="feature-title">Easy to use.</h3>
+            <p>So easy to use, you won't be missing a day.</p>
+          </div>
+          <div class="col-lg-4 feature-box">
+            <i class="fa-solid fa-signal fa-4x feature-icons"></i>
+            <h3 class="feature-title">Elite Service</h3>
+            <p>always available at all times.</p>
+          </div>
+          <div class="col-lg-4 feature-box">
+            <i class="fa-solid fa-location-dot fa-4x feature-icons"></i>
+            <h3 class="feature-title">Precise.</h3>
+            <p>location accuracy with low cost</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Testimonials -->
+
+    <section class="colored-section" id="testimonials">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active container-fluid" data-bs-interval="7000">
+            <h2 class="section-heading">I no longer need to be at my desk or inside my job's building to check-in and be on time, no more work delays</h2>
+            <img class="testimonial-image" src="images/ray.jpg" alt="customer-profile">
+            <em>Ray, Guadalajara</em>
+          </div>
+          <div class="carousel-item container-fluid" data-bs-interval="7000">
+            <h2 class="section-heading">Just-in time has brought me a more efficient way to do my daily check-ins and be less worried about not being on time</h2>
+            <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+            <em>Beverly, Illinois</em>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+
+    <!-- Press -->
+
+    <section id="press">
+      <img class="press-images" src="images/techcrunch.png" alt="tc-logo">
+      <img class="press-images" src="images/tnw.png" alt="tnw-logo">
+      <img class="press-images" src="images/bizinsider.png" alt="biz-insider-logo">
+      <img class="press-images" src="images/mashable.png" alt="mashable-logo">
+
+    </section>
+
+
+    <!-- Pricing -->
+
+    <section class="white-section" id="pricing">      
+      <h2 class="section-heading">A Plan for Every Company's Needs</h2>
+      <p>Simple and affordable price plans for you and your Employees.</p>
+      <div class="row">
+        <div class="pricing-column col-lg-4 col-md-6">
+          <div class="card border-success">
+            <div class="card-header">
+              <h3 class="prices-headings">Free</h3>
+            </div>
+            <div class="card-body">
+              <h2>$0/mo</h2>
+              <p>10 users included</p>
+              <P>2 GB of storage</P>
+              <p>Email support</p>
+              <button type="button" class="w-100 btn btn-lg btn-outline-success">Sign Up</button>
+            </div>
+          </div>
+        </div>
+        <div class="pricing-column col-lg-4 col-md-6">
+          <div class="card border-success">
+            <div class="card-header">
+              <h3 class="prices-headings">Pro</h3>
+            </div>
+            <div class="card-body">
+              <h2>$89/mo</h2>
+              <p>50 users included</p>
+              <p>25 GB of storage</p>
+              <p>Priority email support</p>
+              <button type="button" class="w-100 btn btn-lg btn-success">Sign Up</button>          
+            </div>
+          </div>
+        </div>
+        <div class="pricing-column col-lg-4 col-md-12">
+          <div class="card mb-4 rounded-3 shadow-sm border-success">
+            <div class="card-header text-bg-success border-success">
+              <h3 class="prices-headings">Delux</h3>
+            </div>
+            <div class="card-body">
+              <h2>$149 / mo</h2>
+              <p>100 users included</p>
+              <p>50 GB of storage</p>
+              <p>Phone and email support</p>
+              <p>Help center access</p>
+              <button type="button" class="w-100 btn btn-lg btn-success">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Call to Action -->
+
+    <section class="colored-section" id="cta">
+      
+      <div class="container-fluid text-center">
+        <h3 class="cta-title">Find the true efficiency of controlling your daily job's check-ins.</h3>
+        <button type="button" class="btn btn-dark btn-lg Download-button"><i class="fa-brands fa-apple"></i> Download</button>
+        <button type="button" class="btn btn-outline-light btn-lg Download-button"><i class="fa-brands fa-google-play"></i> Download</button>
+      </div>
+
+    </section>
+
+
+    <!-- Footer -->
+
+    <footer id="footer">
+      <div class="container-fluid">
+        <i class="fa-brands fa-twitter footer-icons"></i>
+        <i class="fa-brands fa-facebook-f footer-icons"></i>
+        <i class="fa-brands fa-instagram footer-icons"></i>
+        <i class="fa-solid fa-envelope footer-icons"></i>
+        <p>© Copyright Just-in Time</p>
+      </div>
+    </footer>
+    <!-- bootstrap script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"></script>
+    <!-- Awesome fonts -->
+    <script src="https://kit.fontawesome.com/b5cfe49fc7.js" crossorigin="anonymous"></script>
+
+  </body>
+
+</html>
